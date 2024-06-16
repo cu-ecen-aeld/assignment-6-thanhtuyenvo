@@ -9,6 +9,8 @@ jobs:
       full-test:  
         runs-on: self-hosted
         steps:
+          - name: Install git 
+            run: apt-get install -y git
           - uses: actions/checkout@v3
             with:
               clean: false
