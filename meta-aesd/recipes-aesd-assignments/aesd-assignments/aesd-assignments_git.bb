@@ -10,11 +10,11 @@ INITSCRIPT_NAME:${PN} = "aesdsocket-start-stop.sh"
 
 # DONE: Set this  with the path to your assignments rep.  Use ssh protocol and see lecture notes
 # about how to setup ssh-agent for passwordless access
-SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-thanhtuyenvo.git;protocol=ssh;branch=master"
+SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-thanhtuyenvo.git;protocol=ssh;branch=main"
 
 PV = "1.0+git${SRCPV}"
 # DONE: set to reference a specific commit hash in your assignment repo
-SRCREV = "d96520371120e09b3a2cc4bbf9ec94e896902b63"
+SRCREV = "8b935928a717a6001c0eeb25e86935eb139b76bd"
 
 # This sets your staging directorrfined at 
 # https://docs.yoctoproject.org/ref-manual/variables.html?highlight=workdir#term-WORKDIR
