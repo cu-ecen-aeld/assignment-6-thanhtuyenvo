@@ -10,7 +10,7 @@ jobs:
         runs-on: self-hosted
         steps:
           - name: Install git 
-            run: apt-get install -y git
+            run: sudo apt update && sudo apt install git
           - uses: actions/checkout@v3
             with:
               clean: false
